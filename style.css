@@ -1,9 +1,9 @@
  /* CSS :Reset */
- html,body {
+ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     margin: 0px;
     padding: 0px;
-    background: url('img/motuGuitar.jpg') ;
+    background: url('img/Guitarblue.jpg') ;
     color: rgb(255, 255, 255);
     display: block;
     z-index: -1;
@@ -23,8 +23,16 @@
 
     /* border: 3px solid rgb(233, 19, 19); */
     display: block;
-    width: 36%;
-    margin: 10px auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+ul.navbar{
+    margin: 0px;
 }
 
 .right {
@@ -47,7 +55,6 @@
 .navbar li a{
     color: beige;
     text-decoration: none;
-    padding: 2px 20px;
 
 }
 
@@ -63,7 +70,7 @@
 
 .left img {
     height: 50px;
-    width: 100px;
+    width: 140px;
     filter: invert(100%);
     background: transparent;
     margin-left: 1px;
@@ -112,6 +119,12 @@
 
 
 .container h1 {
+    text-align: center;
+    text-shadow: 4px 1px 5px black;
+}
+
+.container p {
+    font-size: 20px;
     text-align: center;
     text-shadow: 4px 1px 5px black;
 }
